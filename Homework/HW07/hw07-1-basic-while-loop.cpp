@@ -36,9 +36,7 @@ int main () {
 
     int N ;
 
-    printf( "Test case:\n" ) ;
     scanf( "%d", &N )  ;
-    printf( "Output:\n" ) ;
 
     int i = 1 ;
 
