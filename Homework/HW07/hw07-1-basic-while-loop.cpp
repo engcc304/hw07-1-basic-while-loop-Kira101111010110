@@ -30,3 +30,26 @@
         [7] Hello World
 
 */
+#include <stdio.h>
+
+int main () {
+
+    int N ;
+    printf( "จำนวนบรรทัด : \n") ;
+    scanf( "%d", &N )  ;
+
+    int i = 1 ;
+
+    if( N % 2 == 0 ) {
+        while ( i <= N ) {
+        printf( "(%d) Hello World\n", i ) ;
+        i++ ;
+        } //end while
+    } else {
+        while ( i <= N ) {
+        printf( "[%d] Hello World\n", i ) ;
+        i++ ;
+        } //end while
+    } //end else
+    return 0 ;
+} //end main function
