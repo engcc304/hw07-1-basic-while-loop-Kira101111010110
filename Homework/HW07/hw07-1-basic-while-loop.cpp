@@ -35,21 +35,21 @@
 int main () {
 
     int N ;
-
+    printf( "จำนวนบรรทัด : \n") ;
     scanf( "%d", &N )  ;
 
     int i = 1 ;
 
     if( N % 2 == 0 ) {
         while ( i <= N ) {
-        printf( "(%d) Hello World \n", i ) ;
+        printf( "(%d) Hello World\n", i ) ;
         i++ ;
         } //end while
     } else {
         while ( i <= N ) {
-        printf( "[%d] Hello World \n", i ) ;
+        printf( "[%d] Hello World\n", i ) ;
         i++ ;
         } //end while
-    } //end ele
+    } //end else
     return 0 ;
 } //end main function
